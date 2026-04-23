@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Package build artifacts
+build/
+dist/
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local test outputs (don't commit sensitive real data!)
+test_output/
+output/
+results/
+ozone_output/
+
+# Cloudflared binary (platform-specific, download separately)
+cloudflared
+cloudflared.exe
+
+# Sensitive data — CSVs should not be committed
+*.csv
+!examples/sample_*.csv
