@@ -22,7 +22,7 @@ import streamlit as st
 import pandas as pd
 
 # Make local package importable
-sys.path.insert(0, str(Path(__file__).parent))
+sys.path.insert(0, str(Path(__file__).parent / "ozone_hotspot_folder_only"))
 
 from ozone_hotspot import diagnose, DiagnosisResult, validate_csv
 from ozone_hotspot.report import render_report
