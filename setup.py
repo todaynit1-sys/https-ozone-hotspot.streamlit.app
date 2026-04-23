@@ -21,7 +21,7 @@ setup(
     author="Hyunjun Shin, Hyunjung Seo, Cheonwoong Kang",
     url="",
     license="MIT",
-    packages=find_packages()where="ozone_hotspot_folder_only",
+    packages=find_packages(where="ozone_hotspot_folder_only",
     python_requires=">=3.9",
     install_requires=[
         "pandas>=1.5",
